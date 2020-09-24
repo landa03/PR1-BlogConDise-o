@@ -1,0 +1,46 @@
+[href="Titulo"]{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+/* [id="indice"]{
+    display: inline;
+} */
+#indice ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+#indice ul li { display: inline; }
+#indice ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: #fff;
+background-color: #036;
+}
+
+#indice ul li a:hover
+{
+color: #fff;
+background-color: #369;
+}
+
+[class="fit-picture"]{
+    margin: 40px;
+    width: 600px;
+    height: 400px;
+}
+body{
+    background-color: cadetblue;
+}
+[href="info"]{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+footer{
+    color:rgb(200, 200, 200);
+    text-align: right;
+}
